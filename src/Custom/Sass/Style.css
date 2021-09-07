@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+* body {
+  width: 100vw;
+  min-height: 100vh;
+  background: #fcfcfc;
+  overflow-x: hidden;
+}
+
+* body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px 0 0 0;
+}
+
+* body header .Between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body header .Between section {
+  height: 30px;
+  margin: 0 10px;
+  border: 1px #8a5cbf solid;
+  border-radius: 4px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body header .Between section button,
+* body header .Between section select {
+  height: 100%;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 5px;
+  color: #8a5cbf;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+* body header .Between section button option,
+* body header .Between section select option {
+  background: #fcfcfc;
+  color: #8a5cbf;
+}
+
+* body header .Between section button:hover,
+* body header .Between section select:hover {
+  background: #8a5cbf;
+  color: #fcfcfc;
+}
+
+* body header .Between section div {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+* body header .Between section.New {
+  width: calc(50px * 1);
+}
+
+* body header .Between section.New button {
+  width: calc(100% / 1);
+}
+
+* body header .Between section.Image {
+  width: calc(50px * 1);
+}
+
+* body header .Between section.Image button {
+  width: calc(100% / 1);
+}
+
+* body header .Between section.Style {
+  width: calc(50px * 2);
+}
+
+* body header .Between section.Style button {
+  width: calc(100% / 2);
+}
+
+* body header .Between section.Align {
+  width: calc(50px * 3);
+}
+
+* body header .Between section.Align button {
+  width: calc(100% / 3);
+}
+
+* body header .Between section.Color {
+  width: 200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=Style.css.map */
